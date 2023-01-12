@@ -74,3 +74,110 @@ header {
 .active {
     border-bottom: 1px solid #fff;
 }
+
+/*----------- Hero Styling ------------*/
+
+#hero-outer {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../../images/chess-g6c01d43cb_1920.jpg') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {transform: scale(1.0);
+    }
+
+    to {transform: scale(1.1);
+    }
+}
+
+#slogan {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 2em;
+    font-family: Lato, sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+/* Club Ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 100px 0 0;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#left-about p {
+    text-align: left;
+}
+
+#left-about h2 {
+    line-height: 30px;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.right-about-heading h2, p {
+    text-align: right;
+}
+
+.right-about-heading h2 {
+    line-height: 30px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Contact Section */
+
