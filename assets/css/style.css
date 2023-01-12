@@ -1,15 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Arvo&display=swap');
 
-/* Nav bar Styling */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Global styles */
+
 body {
     font-family: Arvo, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*------------- Header Styles -------------*/
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#logo {
+    font-size: 1.5em;
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+    line-height: 75px;
+    color: #fff;
 }
